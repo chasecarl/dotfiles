@@ -25,7 +25,10 @@ Vim (and not gvim!) uses console fonts and console in its turn uses system fonts
 ~~~bash
 fc-cache -fv
 ~~~
-2. To install for all users: the dir is `/usr/share/fonts/truetype/`, the command is the same one but executed as root
+2. To install for all users: the dir is `/usr/share/fonts/truetype/`, the command is the same one but executed as root  
+
+Then choose it in your terminal preferences.
+In KDE, the default Konsole font, **Noto Mono**, was supported by the **airline** but not by **devicons**. Its Nerd Font variation is called **NotoMoto Nerd Font**.
 
 
 
