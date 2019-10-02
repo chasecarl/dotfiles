@@ -4,4 +4,5 @@ For instance, for the **vimrc** file you need to go to _~/.vimrc_ and put
 ~~~vimscript
 source /your/dotfiles/folder/path/vimrc
 ~~~
+in it
 
