@@ -13,6 +13,7 @@ Plug 'vim-airline/vim-airline'
 " to be added later
 " Plug 'lervag/vimtex'
 Plug 'shime/vim-livedown'
+Plug 'ryanoasis/vim-devicons'
 
 
 call plug#end()
