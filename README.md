@@ -11,7 +11,7 @@ The first time you run it on a machine you need to download vim-plug:
 curl -flo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ~~~
 Then you can run :PlugInstall, :PlugUpdate and so on inside the Vim -- [ref][vim-plug-gh]
-#### YouCompleteMe (YMC)
+#### YouCompleteMe (YCM)
 You need to go to vim plugins folder and run `install.py` to complete the installation
 #### Livedown
 You need to install `Node.js` and the Livedown package for it:
