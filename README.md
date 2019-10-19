@@ -29,6 +29,7 @@ fc-cache -fv
 
 Then choose it in your terminal preferences.
 In KDE, the default Konsole font, **Noto Mono**, was supported by the **airline** but not by **devicons**. Its Nerd Font variation is called **NotoMoto Nerd Font**.
+In i3, despite that URxvt itself doesn't go along with vim themes (The problem may be due to its low bit resolution), xfce4-terminal with the system font is already patched (supports both **airline** and **devicons**)
 
 
 
