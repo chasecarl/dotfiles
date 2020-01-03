@@ -14,6 +14,7 @@ Plug 'vim-airline/vim-airline'
 " Plug 'lervag/vimtex'
 Plug 'shime/vim-livedown'
 Plug 'ryanoasis/vim-devicons'
+Plug 'sevko/vim-nand2tetris-syntax'
 
 
 call plug#end()
