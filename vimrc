@@ -45,7 +45,8 @@ colorscheme challenger_deep
 " Environment Variables #
 "########################
 
-set number
+set number relativenumber
+set nu rnu
 set ts=4
 set sts=4
 set sw=4
