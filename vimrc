@@ -8,7 +8,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'Raimondi/delimitMate'
 Plug 'challenger-deep-theme/vim', {'as': 'challenger-deep'}
 Plug 'valloric/youcompleteme'
-Plug 'scrooloose/nerdcommenter'
+" Plug 'scrooloose/nerdcommenter'
+Plug 'tpope/vim-commentary'
 Plug 'vim-airline/vim-airline'
 " to be added later
 " Plug 'lervag/vimtex'
@@ -20,7 +21,7 @@ Plug 'haya14busa/incsearch.vim'
 
 call plug#end()
 
-let g:NERDSpaceDelims = 2
+" let g:NERDSpaceDelims 
 
 let g:airline_powerline_fonts = 1
 " let g:airline#extensions#keymap#enabled = 0
