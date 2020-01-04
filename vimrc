@@ -15,6 +15,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'shime/vim-livedown'
 Plug 'ryanoasis/vim-devicons'
 Plug 'sevko/vim-nand2tetris-syntax'
+Plug 'haya14busa/incsearch.vim'
 
 
 call plug#end()
@@ -47,9 +48,20 @@ colorscheme challenger_deep
 
 set number relativenumber
 set nu rnu
+
 set ts=4
 set sts=4
 set sw=4
+
+set hls
+set incsearch
+let g:incsearch#auto_nohlsearch = 1
+map n <Plug>(incsearch-nohl-n)
+map N <Plug>(incsearch-nohl-N)
+map * <Plug>(incsearch-nohl-*)
+map # <Plug>(incsearch-nohl-#)
+map g* <Plug>(incsearch-nohl-g*)
+map g# <Plug>(incsearch-nohl-g#)
 
 "###########
 " Mappings #
