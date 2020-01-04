@@ -73,6 +73,28 @@ nnoremap <leader>n o<esc>
 nnoremap <leader>N O<esc>
 nnoremap <leader>ld :LivedownToggle<CR>
 
+" Disabling arrow keys
+cnoremap <Left> <Nop>
+cnoremap <Up> <Nop>
+cnoremap <Right> <Nop>
+cnoremap <Down> <Nop>
+
+inoremap <Left> <Nop>
+inoremap <Up> <Nop>
+inoremap <Right> <Nop>
+inoremap <Down> <Nop>
+
+nnoremap <Left> <Nop>
+nnoremap <Up> <Nop>
+nnoremap <Right> <Nop>
+nnoremap <Down> <Nop>
+
+vnoremap <Left> <Nop>
+vnoremap <Up> <Nop>
+vnoremap <Right> <Nop>
+vnoremap <Down> <Nop>
+
+
 "########
 " Other #
 "########
