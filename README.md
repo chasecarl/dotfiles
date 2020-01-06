@@ -57,6 +57,7 @@ You may ask why do we need to do all this? Are there any alternatives? There is,
 
 **Cons:**
 * it doesn't update the preview instantly. Here, it's bounded to the vim's `updatetime` and the recommended value is 1000ms, i.e. 1s. In other words, **it autoupdates only once in a second**. And it also produces this flickering reload animation that is very disturbing to me! And does so every second!
+**upd.:** Actually, vim-live-latex-preview flickers **inside vim** (the status bar) when the live updating is ON, and I found myself switching it OFF and switch ON only when I need to see the changes, that is equivalent to just compile the file on demand. I dunno if I'll stay with vim-live-latex-preview
 
 
 
