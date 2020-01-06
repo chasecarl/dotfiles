@@ -76,9 +76,9 @@ nnoremap <leader>ld :LivedownToggle<CR>
 
 " Disabling arrow keys
 cnoremap <Left> <Nop>
-cnoremap <Up> <Nop>
+" cnoremap <Up> <Nop>
 cnoremap <Right> <Nop>
-cnoremap <Down> <Nop>
+" cnoremap <Down> <Nop>
 
 inoremap <Left> <Nop>
 inoremap <Up> <Nop>
