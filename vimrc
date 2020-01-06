@@ -17,7 +17,7 @@ Plug 'shime/vim-livedown'
 Plug 'ryanoasis/vim-devicons'
 Plug 'sevko/vim-nand2tetris-syntax'
 Plug 'haya14busa/incsearch.vim'
-
+Plug 'ying17zi/vim-live-latex-preview'
 
 call plug#end()
 
@@ -69,6 +69,8 @@ map g# <Plug>(incsearch-nohl-g#)
 "###########
 
 let mapleader = ','
+" for the vim-live-latex-preview
+let maplocalleader = ','
 
 nnoremap <leader>n o<esc>
 nnoremap <leader>N O<esc>
