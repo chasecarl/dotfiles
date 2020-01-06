@@ -102,3 +102,4 @@ vnoremap <Down> <Nop>
 " Other #
 "########
 
+autocmd BufRead,BufNewFile *.tex set filetype=tex
