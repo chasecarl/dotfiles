@@ -18,6 +18,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'sevko/vim-nand2tetris-syntax'
 Plug 'haya14busa/incsearch.vim'
 Plug 'ying17zi/vim-live-latex-preview'
+Plug 'jeetsukumaran/vim-pythonsense'
 
 call plug#end()
 
