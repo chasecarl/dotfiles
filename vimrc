@@ -98,6 +98,7 @@ vnoremap <Up> <Nop>
 vnoremap <Right> <Nop>
 vnoremap <Down> <Nop>
 
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 
 "########
 " Other #
