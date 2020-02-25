@@ -98,6 +98,10 @@ vnoremap <Up> <Nop>
 vnoremap <Right> <Nop>
 vnoremap <Down> <Nop>
 
+" Indenting with <C-Return> when beginning a scope in languages
+" with curly braces
+inoremap <C-Return>	<CR><CR><C-o>k<Tab>
+
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 
 "########
