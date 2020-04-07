@@ -6,7 +6,8 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'Raimondi/delimitMate'
-Plug 'challenger-deep-theme/vim', {'as': 'challenger-deep'}
+" Plug 'challenger-deep-theme/vim', {'as': 'challenger-deep'}
+Plug 'tomasr/molokai'
 Plug 'valloric/youcompleteme'
 " Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-commentary'
@@ -42,7 +43,8 @@ if has('nvim') || has('termguicolors')
 	set termguicolors
 endif
 
-colorscheme challenger_deep
+" colorscheme challenger_deep
+colorscheme molokai
 
 "########################
 " Environment Variables #
