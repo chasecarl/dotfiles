@@ -17,7 +17,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'shime/vim-livedown'
 Plug 'ryanoasis/vim-devicons'
 Plug 'sevko/vim-nand2tetris-syntax'
-Plug 'haya14busa/incsearch.vim'
+" Plug 'haya14busa/incsearch.vim'
 Plug 'ying17zi/vim-live-latex-preview'
 Plug 'jeetsukumaran/vim-pythonsense'
 
@@ -59,7 +59,7 @@ set sw=4
 
 set hls
 set incsearch
-let g:incsearch#auto_nohlsearch = 1
+" let g:incsearch#auto_nohlsearch = 1
 map n <Plug>(incsearch-nohl-n)
 map N <Plug>(incsearch-nohl-N)
 map * <Plug>(incsearch-nohl-*)
