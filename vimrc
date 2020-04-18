@@ -56,6 +56,7 @@ let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 " colorscheme challenger_deep
 colorscheme gruvbox
 set bg=dark
+hi Normal guibg=NONE ctermbg=NONE
 
 "########################
 " Environment Variables #
