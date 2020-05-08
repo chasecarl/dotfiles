@@ -80,18 +80,17 @@ map g# <Plug>(incsearch-nohl-g#)
 " Mappings #
 "###########
 
-let mapleader = ','
-" for the vim-live-latex-preview
-let maplocalleader = ','
+let mapleader = ' '
+let maplocalleader = ' '
 
 nnoremap <leader>n o<esc>
 nnoremap <leader>N O<esc>
 nnoremap <leader>ld :LivedownToggle<CR>
 
 " Disabling arrow keys
-cnoremap <Left> <Nop>
+" cnoremap <Left> <Nop>
 " cnoremap <Up> <Nop>
-cnoremap <Right> <Nop>
+" cnoremap <Right> <Nop>
 " cnoremap <Down> <Nop>
 
 inoremap <Left> <Nop>
