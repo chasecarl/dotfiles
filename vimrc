@@ -9,17 +9,14 @@ Plug 'Raimondi/delimitMate'
 " Plug 'challenger-deep-theme/vim', {'as': 'challenger-deep'}
 Plug 'valloric/youcompleteme'
 Plug 'morhetz/gruvbox'
-Plug 'jaredgorski/spacecamp'
-" Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
-" to be added later
-" Plug 'lervag/vimtex'
+Plug 'lervag/vimtex'
 Plug 'shime/vim-livedown'
 Plug 'ryanoasis/vim-devicons'
-Plug 'sevko/vim-nand2tetris-syntax'
+" Plug 'sevko/vim-nand2tetris-syntax'
 Plug 'haya14busa/incsearch.vim'
-Plug 'ying17zi/vim-live-latex-preview'
 Plug 'jeetsukumaran/vim-pythonsense'
 
 call plug#end()
@@ -122,4 +119,11 @@ set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNO
 " Other #
 "########
 
-autocmd BufRead,BufNewFile *.tex set filetype=tex
+let g:tex_flavor = 'latex'
+if !exists('g:ycm_semantic_triggers')
+	let g:ycm_semantic_triggers = {}
+endif
+let g:ycm_semantic_triggers.tex = g:vimtex#re#youcompleteme
+let g:vimtex_imaps_leader = '`'
+
+" autocmd BufRead,BufNewFile *.tex set filetype=tex
